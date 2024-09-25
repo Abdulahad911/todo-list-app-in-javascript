@@ -59,9 +59,12 @@ li{
             white-space: nowrap; 
             overflow: hidden;      
             text-overflow: ellipsis; 
-            border: 1px solid #ccc; 
+            border: none; 
             padding: 5px;
 
+}
+li:hover{
+    background-color: rgb(176, 175, 175); 
 }
 #taskList{
     padding: 30px;
