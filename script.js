@@ -9,4 +9,5 @@ function addingTaskElement(){
     }
     var removeBtn = document.createElement('button')
     removeBtn.textContent = 'Remove'
+    removeBtn.className = 'remove-btn'
 } 
