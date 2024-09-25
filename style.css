@@ -21,8 +21,8 @@ h1{
     align-items: center;
     flex-direction: column;
     border-radius: 9px;
-width: 600px;
-height: 300px;
+width: 350px;
+height: 200px;
  box-shadow: 2px 2px 5px grey;
 }
 input{
