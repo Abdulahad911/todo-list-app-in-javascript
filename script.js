@@ -15,6 +15,6 @@ function addingTaskElement(){
         taskList.removeChild(li)
     }
     li.appendChild(removeBtn)
-
+    taskInput.value = ''
    
 } 
