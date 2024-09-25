@@ -10,4 +10,8 @@ function addingTaskElement(){
     var removeBtn = document.createElement('button')
     removeBtn.textContent = 'Remove'
     removeBtn.className = 'remove-btn'
+    removeBtn.onclick = function(){
+        taskList.removeChild(li)
+    }
+    li.appendChild(removeBtn)
 } 
