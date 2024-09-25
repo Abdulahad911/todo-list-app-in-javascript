@@ -16,21 +16,23 @@ h1{
     height: 100%;
 }
 .box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border-radius: 9px;
-width: 350px;
+    width: 380px;
 height: 200px;
- box-shadow: 2px 2px 5px grey;
+overflow: auto;
+border: 1px solid #ccc;
+padding: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+border-radius: 9px;
+box-shadow: 2px 2px 5px grey;
 }
 input{
     width: 280px;
     height: 20px;
     padding: 5px;
     border-radius: 5px;
-    margin-top: 15px;
+    
     /* border: 1px solid blue; */
 }
 .btn{
@@ -50,7 +52,12 @@ li{
     width: 300px;
     height: 20px;
     padding: 7px 0px 0px 10px;
+    margin: 5px 0; /* Space between elements */
+            flex: 0 0 auto;
 }
 #taskList{
     padding: 30px;
 }
+
+
+
