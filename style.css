@@ -51,11 +51,16 @@ li{
     margin-top: 3px;
     width: 300px;
     height: 20px;
-    padding: 7px 0px 0px 10px;
+    padding: 7px;
     margin: 5px 0; 
             flex: 0 0 auto;
             display: flex;
             justify-content: space-between;
+            white-space: nowrap; 
+            overflow: hidden;      
+            text-overflow: ellipsis; 
+            border: 1px solid #ccc; 
+            padding: 5px;
 
 }
 #taskList{
@@ -63,7 +68,14 @@ li{
 }
 
 .remove-btn{
-
+    width: 60px;
+    padding: 3px;
+    height: 20px;
+    border-radius: 3px;
+    background-color: rgb(194, 31, 31);
+    color: white;
+    box-shadow: 0 0 3px grey;
+    border: none;
 }
 
 
